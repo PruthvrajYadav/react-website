@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
-import { logout } from '../slice/userSlice';
+import { logout } from '../Slice/userSlice'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import "../styles/main.css";
 
